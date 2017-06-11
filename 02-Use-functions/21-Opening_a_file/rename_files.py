@@ -8,5 +8,8 @@ def rename_files():
     print(file_list)
 
     # (2) for each file, rename filename
+    for file_name in file_list:
+        str = file_name.maketrans('', '', '0123456789')
+        os.rename(file_name, file_name.translate(str))
 
 rename_files()
