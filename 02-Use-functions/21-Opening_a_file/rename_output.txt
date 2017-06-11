@@ -1,0 +1,47 @@
+Current working directory is /home/paneladm/python/udacity_foundations/02-Use-functions/21-Opening_a_file
+Old Name: 37athens.jpg - New Name: athens.jpg
+Old Name: 2hyderabad.jpg - New Name: hyderabad.jpg
+Old Name: 54dallas.jpg - New Name: dallas.jpg
+Old Name: 46colombo.jpg - New Name: colombo.jpg
+Old Name: 88jacksonville.jpg - New Name: jacksonville.jpg
+Old Name: 73delhi.jpg - New Name: delhi.jpg
+Old Name: 47singapore.jpg - New Name: singapore.jpg
+Old Name: 45austin.jpg - New Name: austin.jpg
+Old Name: 66san jose.jpg - New Name: san jose.jpg
+Old Name: 83gainesville.jpg - New Name: gainesville.jpg
+Old Name: 29buenos aires.jpg - New Name: buenos aires.jpg
+Old Name: 41seoul.jpg - New Name: seoul.jpg
+Old Name: 97oakland.jpg - New Name: oakland.jpg
+Old Name: 5bogota.jpg - New Name: bogota.jpg
+Old Name: 74tel aviv.jpg - New Name: tel aviv.jpg
+Old Name: 4istanbul.jpg - New Name: istanbul.jpg
+Old Name: 47london.jpg - New Name: london.jpg
+Old Name: 25madrid.jpg - New Name: madrid.jpg
+Old Name: 2chennai.jpg - New Name: chennai.jpg
+Old Name: 69chicago.jpg - New Name: chicago.jpg
+Old Name: 36sydney.jpg - New Name: sydney.jpg
+Old Name: 93manchester.jpg - New Name: manchester.jpg
+Old Name: 9barcelona.jpg - New Name: barcelona.jpg
+Old Name: 96karachi.jpg - New Name: karachi.jpg
+Old Name: 16los angeles.jpg - New Name: los angeles.jpg
+Old Name: 47sao paulo.jpg - New Name: sao paulo.jpg
+Old Name: 22rochester.jpg - New Name: rochester.jpg
+Old Name: 55kiev.jpg - New Name: kiev.jpg
+Old Name: 64seattle.jpg - New Name: seattle.jpg
+Old Name: 72bangalore.jpg - New Name: bangalore.jpg
+Old Name: 50san diego.jpg - New Name: san diego.jpg
+Old Name: 68pune.jpg - New Name: pune.jpg
+Old Name: 61edinbrugh.jpg - New Name: edinbrugh.jpg
+Old Name: 69shanghai.jpg - New Name: shanghai.jpg
+Old Name: 89berkeley.jpg - New Name: berkeley.jpg
+Old Name: 45ithaca.jpg - New Name: ithaca.jpg
+Old Name: 28houston.jpg - New Name: houston.jpg
+Old Name: 52new york.jpg - New Name: new york.jpg
+Old Name: 29bristol.jpg - New Name: bristol.jpg
+Old Name: 48sunnyvale.jpg - New Name: sunnyvale.jpg
+Old Name: 90beijing.jpg - New Name: beijing.jpg
+Old Name: 72bucharest.jpg - New Name: bucharest.jpg
+Old Name: 17cairo.jpg - New Name: cairo.jpg
+Old Name: 35miami.jpg - New Name: miami.jpg
+
+Process finished with exit code 0
