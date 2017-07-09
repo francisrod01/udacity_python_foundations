@@ -12,14 +12,9 @@ def draw_square():
     brad.color("yellow")
     brad.speed(2)
 
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
-    brad.forward(100)
-    brad.right(90)
+    for i in range(0, 4):
+        brad.forward(100)
+        brad.right(90)
 
     angie = turtle.Turtle()
     angie.shape("arrow")
