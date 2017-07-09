@@ -20,18 +20,15 @@ def draw_art():
     brad.shape("turtle")
     brad.speed(20)
 
-    brad.setheading(270)
-    brad.color("green")
-    brad.pensize(10)
-    brad.forward(400)
-    brad.pensize(4)
-    brad.home()
     brad.color("yellow")
 
     # Put draw of square in loop to draw a flower
     for i in range(0, 36):
         draw_flower(brad)
         brad.right(10)
+
+    brad.setheading(270)
+    brad.forward(400)
 
     window.exitonclick()
 
