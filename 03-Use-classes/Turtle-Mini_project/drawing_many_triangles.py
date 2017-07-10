@@ -1,42 +1,45 @@
 #!~/envs/udacity-python-env
 
-# A contribution of Thai Thien to the Udacity discussion forum
-# https://discussions.udacity.com/t/turtle-mini-project-f/16121/8?u=francisrod01
+# A contribution of Greg Bullmer to the Udacity discussion forum
+# https://discussions.udacity.com/t/turtle-mini-project-f/16121/99?u=francisrod01
 
 import turtle
 
 
-def draw_triangle(the_turtle, length, origin, recursion):
-    recursion += 1
+def draw_triangle(the_turtle, level, dist):
     brad = the_turtle
 
-    for i in range(0, 3):
-        if recursion < 4:
-            brad.forward(length / 2)
-            brad.left(120)
-            draw_triangle(brad, length / 2, 0, recursion)
-            brad.right(120)
-            brad.forward(length / 2)
-        else:
-            brad.forward(length)
+    if level == 0:
+        brad.down()
+        brad.begin_fill()
 
-        if origin == 1:
+        for _ in range(3):
+            brad.forward(dist)
             brad.left(120)
-        else:
-            brad.right(120)
+
+        brad.end_fill()
+        brad.up()
+    else:
+
+        for _ in range(3):
+            draw_triangle(brad, level - 1, dist / 2)
+            brad.forward(dist)
+            brad.left(120)
 
 
 def draw_art():
-    brad = turtle.Turtle()
-    brad.speed(10)  # speed 1 to slow turtle down
-    brad.color("yellow", "green")
-    brad.shape("turtle")
-
     # Create turtle's background
     background = turtle.Screen()
-    background.bgcolor("grey")
+    background.screensize(300, 300, "gray")
+    background.setworldcoordinates(0, 0, 300, 300)
 
-    draw_triangle(brad, 200, 1, 0)
+    # Create a new turtle
+    brad = turtle.Turtle()
+    brad.speed(0)  # speed 1 to slow turtle down
+    brad.color("blue", "green")
+    brad.shape("turtle")
+
+    draw_triangle(brad, 4, 300)
 
     background.exitonclick()
 
