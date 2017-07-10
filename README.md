@@ -4,6 +4,8 @@ Programming Foundations with Python of the [Udacity](https://classroom.udacity.c
 
 Repository author: [Francis Rodrigues](https://github.com/francisrod01)
 
+Autor profile on Udacity [discussions forum](https://discussions.udacity.com/u/francisrod01)
+
 See author notes:
 
 - Beginning with Python at [Loyola University](http://anh.cs.luc.edu/python/hands-on/3.1/handsonHtml/ch1.html)
