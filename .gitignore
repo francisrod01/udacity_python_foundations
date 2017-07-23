@@ -1,2 +1,3 @@
 # Ignore project's directories
 .idea/
+__pycache__
