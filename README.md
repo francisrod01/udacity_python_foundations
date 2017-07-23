@@ -13,6 +13,7 @@ See author notes:
 - Using Python3 in [virtualenv](https://stackoverflow.com/a/23842752/3332734)
 - Python Doc - [Built-in functions](https://docs.python.org/3.6/library/functions.html)
 - Checking for [Curse Words](http://www.wdylike.appspot.com/?q=shot)
+- Google Python [Style Guide](https://google.github.io/styleguide/pyguide.html)
 
 ## Packages ##
 
