@@ -16,4 +16,5 @@ poster_image = "http://upload.wikimedia.org/wikipedia/id/b/b0/Avatar-Teaser-Post
 trailer_youtube = "https://www.youtube.com/watch?v=-9ceBgWV8io"
 
 avatar = media.Movie(title, movie_storyline, poster_image, trailer_youtube)
-print(avatar.storyline)
+# print(avatar.storyline)
+avatar.show_trailer()
